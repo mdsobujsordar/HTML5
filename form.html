@@ -7,62 +7,62 @@
     <title>Document</title>
 </head>
 <body>
+   <form action="">
     <h1>Movie Theatre</h1>
-    <form action="">
+    <p>
+        Name: <input type="text" name="name" placeholder="Enter your name" id="">
+    </p>
+    <p>
+        Email: <input type="text" name="name" placeholder="Enter your email" id="">
+    </p>
+    <fieldset>
+        <legend>Choose your language</legend>
         <p>
-            Name: <input type="text" name="name" placeholder="Enter your name" id="">
+            <label for="Bangla">
+                <input type="radio" name="language" id="Bangla"> Bangla
+            </label>
         </p>
         <p>
-            Email: <input type="text" name="email" placeholder="Enter your email" id="">
+            <label for="English">
+                <input type="radio" name="language" id="English"> English
+            </label>
         </p>
-        <fieldset>
-            <legend>Choose language</legend>
-            <p>
-                <label for="Bangla">
-                    <input type="radio" name="language" id="Bangla"> Bangla
-                </label>
-            </p>
-            <p>
-                <label for="English">
-                    <input type="radio" name="language" id="English"> English
-                </label>
-            </p>
-            <p>
-                <label for="Hindi">
-                    <input type="radio" name="language" id="Hindi"> Hindi
-                </label>
-            </p>
-            <p>
-                <label for="Tamil">
-                    <input type="radio" name="language" id="Tamil"> Tamil
-                </label>
-            </p>
-        </fieldset>
-        <fieldset>
-            <legend>Coose Showtime</legend>
-            <p>
-                <label for="10am">
-                    <input type="checkbox" name="Showtime" id="10am"> 10:00 AM
-                </label>
-            </p>
-            <p>
-                <label for="12pm">
-                    <input type="checkbox" name="Showtime" id="12pm"> 12:30 PM
-                </label>
-            </p>
-            <p>
-                <label for="3pm">
-                    <input type="checkbox" name="Showtime" id="3pm"> 03:00 PM
-                </label>
-            </p>
-            <p>
-                <label for="7pm">
-                    <input type="checkbox" name="Showtime" id="7pm"> 07:30 PM
-                </label>
-            </p>
-        </fieldset>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
-    </form>
+        <p>
+            <label for="Hindi">
+                <input type="radio" name="language" id="Hindi"> Hindi
+            </label>
+        </p>
+        <p>
+            <label for="Tamil">
+                <input type="radio" name="language" id="Tamil"> Tamil
+            </label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Choose Showtime</legend>
+        <p>
+            <label for="10am">
+                <input type="checkbox" name="Showtime" id="10am"> 10:00 AM
+            </label>
+        </p>
+        <p>
+            <label for="12pm">
+                <input type="checkbox" name="Showtime" id="12pm"> 12:30 PM
+            </label>
+        </p>
+        <p>
+            <label for="4pm">
+                <input type="checkbox" name="Showtime" id="4pm"> 04:30 PM
+            </label>
+        </p>
+        <p>
+            <label for="7pm">
+                <input type="checkbox" name="Showtime" id="7pm"> 07:30 PM
+            </label>
+        </p>
+    </fieldset>
+    <button type="submit">submit</button>
+    <button type="reset">Reset</button>
+   </form>
 </body>
 </html>
